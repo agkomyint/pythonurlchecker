@@ -1,5 +1,5 @@
 # pythonurlchecker
-Mass URL checker from files
+Mass URL checker from txt file
 
 Check which sites are blocked from your computer. 
 
