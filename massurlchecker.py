@@ -13,6 +13,6 @@ with open(os.devnull, "wb") as limbo:
                 result=subprocess.Popen(["ping", "-c", "1", "-n", "-W", "2", host],
                         stdout=limbo, stderr=limbo).wait()
                 if result:
-                        print (host, " is inactive")
+                        print (host, " is not available")
                 else:
-                        print (host, "is active")
+                        print (host, "is working")
